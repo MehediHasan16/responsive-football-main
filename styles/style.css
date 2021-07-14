@@ -44,6 +44,7 @@ body{
     padding: 10px 24px;
     margin-right: 315px;
     border-radius: 4px;
+    /* transform: rotate(40deg); */
 
 }
 .button{
@@ -68,4 +69,12 @@ body{
     margin-right: 140px;
     margin-top: 153px;
     margin-bottom: 86px;
+   transition: 1s;
+}
+
+.top-container img:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+   transform: rotate(20deg);
 }
